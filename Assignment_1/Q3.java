@@ -12,7 +12,8 @@ public class Q3 {
         while(x>0){
             int r = x%10;
             sum+=r;
-            product+=r;
+            product*=r;
+            x/=10;
         }
         if(sum==product){
             System.out.println(n+ " is a spy number");
