@@ -22,5 +22,6 @@ public class Q2 {
             out = "Obese";
         }
         System.out.println("The person is " + out);
+        sc.close();
     }
 }
