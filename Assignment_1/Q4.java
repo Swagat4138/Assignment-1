@@ -6,6 +6,7 @@ package Assignment_1;
 public class Q4 {
     public static void main(String[] args) {
         char arr[] = {'c','a','r','b','o','n'};
+        int count = 0;
         for(int i=0;i<6;i++){
             for(int j=0;j<6;j++){
                 for(int k=0;k<6;k++){
@@ -17,8 +18,10 @@ public class Q4 {
                                     && k!=l && k!=m && k!=n
                                     && l!=m && l!=n
                                     && m!=n){
+                                        System.out.print(count+ ")");
                                         String s = " "+arr[j]+arr[k]+arr[l]+arr[m]+arr[n];
                                         System.out.println(s);
+                                        count++;
                                     }
                             }
                         }
