@@ -19,7 +19,7 @@ public class Q5 {
         int sum= 0;
         while(n>0){
             int r = n%10;
-            sum+=r;
+            sum+=r; 
             n/=10;
         }
         if(sum>=10){
